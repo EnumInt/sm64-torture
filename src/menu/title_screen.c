@@ -137,7 +137,7 @@ s16 intro_level_select(void) {
         // ... the level select quit combo is being pressed, which uses START. If this
         // is the case, quit the menu instead.
         if (gPlayer1Controller->buttonDown == QUIT_LEVEL_SELECT_COMBO) {
-            gDebugLevelSelect = TRUE;
+            gDebugLevelSelect = FALSE;
             return -1;
         }
         play_sound(SOUND_MENU_STAR_SOUND, gGlobalSoundSource);
