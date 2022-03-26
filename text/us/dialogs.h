@@ -275,12 +275,13 @@ Shhh! Please walk\n\
 quietly in the hallway!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
-Please come to the\n\
-castle. I've baked\n\
-a cake for you.\n\
-Yours truly--\n\
-Princess Toadstool"))
+dear creatureal,\n\
+I am the mighty\n\
+King Bob-omb!\n\
+I am the mighty\n\
+King Bob-omb!\n\
+I am the mighty\n\
+King Bob-omb!"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Welcome.\n\
