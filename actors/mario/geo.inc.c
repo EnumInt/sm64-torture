@@ -3,7 +3,7 @@
 // 0x170002E0
 const GeoLayout mario_geo_face_and_wings[] = {
    GEO_ASM(0, geo_mario_head_rotation),
-   GEO_ROTATION_NODE(0x00, 0, 0, 0),
+   GEO_ROTATION_NODE(0x00, 5, 23, 55),
    GEO_OPEN_NODE(),
       GEO_SWITCH_CASE(0, geo_switch_mario_cap_on_off),
       GEO_OPEN_NODE(),
