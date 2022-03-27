@@ -10,7 +10,24 @@ extern const GeoLayout intro_geo_mario_head_dizzy[];
 extern const GeoLayout intro_geo_000414[];
 
 // leveldata
-extern const Gfx intro_seg7_dl_0700B3A0[];
+extern Lights1 titletest_f3d_material_lights;
+extern Lights1 titletest_Outline2_lights;
+extern Lights1 titletest_f3d_material_001_lights;
+extern Lights1 titletest_f3d_material_002_lights;
+extern Vtx titletest_title_mesh_vtx_0[1236];
+extern Gfx titletest_title_mesh_tri_0[];
+extern Vtx titletest_title_mesh_vtx_1[1942];
+extern Gfx titletest_title_mesh_tri_1[];
+extern Vtx titletest_title_mesh_vtx_2[1615];
+extern Gfx titletest_title_mesh_tri_2[];
+extern Vtx titletest_title_mesh_vtx_3[1604];
+extern Gfx titletest_title_mesh_tri_3[];
+extern Gfx mat_titletest_f3d_material[];
+extern Gfx mat_titletest_Outline2[];
+extern Gfx mat_titletest_f3d_material_001[];
+extern Gfx mat_titletest_f3d_material_002[];
+extern Gfx titletest_title_mesh[];
+
 extern const Gfx intro_seg7_dl_0700C6A0[];
 extern const f32 intro_seg7_table_0700C790[];
 extern const f32 intro_seg7_table_0700C880[];

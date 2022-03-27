@@ -82,7 +82,7 @@ Gfx *geo_intro_super_mario_64_logo(s32 state, struct GraphNode *node, UNUSED voi
         guScale(scaleMat, scaleX, scaleY, scaleZ);
 
         gSPMatrix(dlIter++, scaleMat, G_MTX_MODELVIEW | G_MTX_MUL | G_MTX_PUSH);
-        gSPDisplayList(dlIter++, &intro_seg7_dl_0700B3A0);  // draw model
+        gSPDisplayList(dlIter++, &titletest_title_mesh);  // draw model
         gSPPopMatrix(dlIter++, G_MTX_MODELVIEW);
         gSPEndDisplayList(dlIter);
 
